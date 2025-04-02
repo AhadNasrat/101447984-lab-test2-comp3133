@@ -1,0 +1,7 @@
+<mat-form-field appearance="fill" style="margin-bottom: 1rem; width: 200px;">
+  <mat-label>Filter by Year</mat-label>
+  <mat-select [(ngModel)]="selectedYear" (selectionChange)="filterByYear()">
+    <mat-option value="">All Years</mat-option>
+    <mat-option *ngFor="let year of years" [value]="year">{{ year }}</mat-option>
+  </mat-select>
+</mat-form-field>
