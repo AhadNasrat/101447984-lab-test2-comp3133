@@ -14,7 +14,7 @@ import { MissionfilterComponent } from './missionfilter/missionfilter.component'
 })
 
 export class AppComponent {
-  title = '101472085-lab-test2-comp3133';
+  title = '101447984-lab-test2-comp3133';
 
   @ViewChild('missionList') missionListComponent!: MissionlistComponent;
 
